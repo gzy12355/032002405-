@@ -1,0 +1,6 @@
+auto.waitFor()
+var appName = "拼多多";
+launchApp(appName);
+sleep(3000);
+gesture(60000, [300, 600], [300, 300]);
+engines.stopAll();
